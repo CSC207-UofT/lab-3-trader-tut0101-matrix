@@ -1,7 +1,7 @@
-public class Car implements Tradable, Drivable{
+public class FastCar implements Tradable, Drivable{
     private int price;
     private int s;
-    public Car(int price, int s){
+    public FastCar(int price, int s){
         this.price = price;
         this.s = s;
     }

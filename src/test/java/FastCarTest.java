@@ -3,12 +3,12 @@ import org.junit.Assert;
 
 import static org.junit.Assert.assertEquals;
 
-public class CarTest {
-    Car c;
+public class FastCarTest {
+    FastCar c;
 
     @Before
     public void setUp() throws Exception {
-        c = new Car(90, 100);
+        c = new FastCar(90, 100);
     }
 
     @Test
