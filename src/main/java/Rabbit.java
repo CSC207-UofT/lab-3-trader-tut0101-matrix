@@ -6,7 +6,7 @@ public class Rabbit implements Tradable, Domesticatable{
      */
     @Override
     public String sound() {
-        return 'squeak';
+        return "squeak";
     }
 
     /**
