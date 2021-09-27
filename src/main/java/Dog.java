@@ -8,7 +8,7 @@ public class Dog implements Tradable, Domesticatable{
 
     /**
      * Function getPrice. Returns price of dog proportional to its weight.
-     * @param weight
+     * @param weight: weight of the dog
      */
     @Override
     public int getPrice(int weight){return weight * this.WeightToPrice;}
